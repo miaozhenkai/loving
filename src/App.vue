@@ -5,8 +5,8 @@
     </div>
 </template>
 <script>
-import StyleEditor from './components/StyleEditor'
-import ResumeEditor from './components/ResumeEditor'
+import StyleEditor from './components/StyleEditor.vue'
+import ResumeEditor from './components/ResumeEditor.vue'
 import './assets/reset.css'
 let isPc = (function() {
     var userAgentInfo = navigator.userAgent;
